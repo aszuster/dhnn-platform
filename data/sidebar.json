@@ -1,0 +1,87 @@
+[
+  {
+    "title": "How we work",
+    
+    "subsection": [
+      {
+        "title": "Way of work",
+        "icon": "/images/operaciones/ico-users.png",
+        "path": "/operaciones/section/idasda",
+        "childrens": [
+          {
+            "title": "Categoria",
+            "path": "/22",
+            "subchildrens": [
+              {
+                "title": "Subcaterogia",
+                "path": "/22/1"
+              },
+              {
+                "title": "Subcaterogia",
+                "path": "/22/2"
+              }
+            ]
+          },
+          {
+            "title": "Categoria",
+            "path": "/11",
+            "subchildrens": [
+              {
+                "title": "Subcaterogia",
+                "path": "/11/1"
+              },
+              {
+                "title": "Subcaterogia",
+                "path": "/11/2"
+              }
+            ]
+          },
+          {
+            "title": "Categoria",
+            "path": "/333",
+            "subchildrens": [
+              {
+                "title": "Subcaterogia",
+                "path": "/333/1"
+              },
+              {
+                "title": "Subcaterogia",
+                "path": "/333/2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Manual de operaciones",
+        "icon": "/images/operaciones/ico-folder.png",
+        "path": "/",
+        "childrens": [
+          {
+            "title": "Este es categora",
+            "path": "/operaciones/category/3e234"
+          },
+          {
+            "title": "Collaborating with clients",
+            "path": "/operaciones/343335"
+          }
+        ]
+      },
+      {
+        "title": "Proceso de diseño",
+        "icon": "/images/operaciones/ico-path.png",
+        "path": "/operaciones/343335",
+        "childrens": [
+          {
+            "title": "Our design process",
+            "path": "/operaciones/335"
+          },
+          {
+            "title": "Collaborating with clients",
+            "path": "/operaciones/343335"
+          }
+        ]
+      }
+    ]
+  }
+]

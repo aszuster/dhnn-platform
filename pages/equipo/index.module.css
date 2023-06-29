@@ -1,0 +1,14 @@
+.pill_active {
+  background-color: black !important;
+  color: white;
+}
+/* .pill_active:after {
+    content: "";
+    background: url("/images/components/cross.svg");
+    background-size: cover;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+} */

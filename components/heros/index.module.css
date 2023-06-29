@@ -1,0 +1,81 @@
+.bkg_hero {
+  background: url("/images/components/bkg-hero.png") no-repeat center center;
+  background-size: cover;
+}
+
+.bkg_hero_operaciones {
+  background: url("/images/operaciones/bkg-hero-operaciones-mobile.jpg") no-repeat center left;
+  background-size: cover;
+  position: relative;
+  padding-top: 140px;
+  height: 367px;
+}
+
+.bkg_hero_wrap {
+  position: relative;
+}
+.bkg_hero_wrap:before {
+  content: "";
+  background: url("/images/components/flecha.svg");
+  position: absolute;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  bottom: -35px;
+  left: 10px;
+}
+.bkg_hero_operaciones:before {
+  bottom: 9%;
+}
+
+.flecha {
+  position: relative;
+}
+.flecha:after {
+  content: "";
+  background: url("/images/components/flecha.svg");
+  display: block;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  margin-top: 78px;
+  left: -10px;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .bkg_hero_operaciones {
+    background: url("/images/operaciones/bkg-hero-operaciones-tablet.jpg") no-repeat center left;
+    background-size: cover;
+    position: relative;
+    height: 406px;
+  }
+  .bkg_hero_operaciones {
+    background: url("/images/operaciones/bkg-hero-operaciones-mobile.jpg") no-repeat center left;
+    background-size: cover;
+    position: relative;
+    padding-top: 112px;
+    height: 367px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .bkg_hero_operaciones {
+    background: url("/images/operaciones/bkg-hero-operaciones.jpg") no-repeat top right;
+    background-size: cover;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  .bkg_hero  {
+    padding-top: 132px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bkg_hero_operaciones:before {
+    left: 28%;
+  }
+}

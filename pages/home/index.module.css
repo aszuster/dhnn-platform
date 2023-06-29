@@ -1,0 +1,47 @@
+.buttons_embla {
+  display: none;
+}
+.embla__dots_styles {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  top: 460px;
+}
+
+
+@media (min-width: 1024px) {
+  .embla__dots_styles {
+    width: 50%;
+    right: 0;
+    top: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .buttons_embla {
+    bottom: 60px;
+    right: -5rem;
+    display: block;
+    width: 50%;
+  }
+  .embla__dots_styles {
+    display: none;
+  }
+}
+.buttons_embla_activities {
+  bottom: 50px;
+  right: 20px
+}
+.arrow_svg {
+  height: 49px;
+  width: 49px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow_svg:hover svg path {
+  stroke: white;
+}
